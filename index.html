@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -53,10 +53,16 @@
           required
           placeholder="unesite opis do max 200 znakova"
         ></textarea>
+        <br />
+        <label for="datum">Datum prijave:</label>
+        <input id="datum" type="date" min="2024-02-18" max="2024-02-29" />
       </p>
       <p>
         <input type="submit" value="Pošalji" />
         <input type="reset" value="resetiraj podatke" />
+        <br />
+        <label for="dokument">Dokument privitak:</label><br />
+        <input id="dokument" type="file" /><br />
       </p>
     </form>
   </body>
